@@ -1,9 +1,5 @@
-def get_upper(text):
-    return text.upper()
-
-
-def get_title(text):
+def capitalize_string(input_string):
     """
-    Делает заглавными первые буквы каждого слова в строке
+    Выводит текст в верхнем регистре
     """
-    return text.title()
+    return input_string.upper()
